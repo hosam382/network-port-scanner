@@ -6,8 +6,8 @@ from datetime import datetime
 def scan_target():
     target = input("أدخل عنوان الهدف أو الـ IP للفحص: ")
     print("-" * 50)
-    print(جاري فحص الهدف: {target})
-    print(وقت بدء الفحص: {str(datetime.now())})
+    print(f"جاري فحص الهدف: {target}")
+    print(f"وقت بدء الفحص: {datetime.now()}")
     print("-" * 50)
 
     try:
